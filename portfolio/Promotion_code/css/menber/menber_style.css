@@ -1,0 +1,21 @@
+.lt,.gt{
+    background-color: blue;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 0 20%;
+    padding: 0 8px;
+}
+.lt:hover,.gt:hover{
+    background-color: white;
+    border: none;
+    color: blue;
+    transition: 0.3s;
+}
+.character{
+    margin-top: 10%;
+    border-top: 2px double #fff;
+    padding-top:2%;
+}
+.character .h3{
+    margin-top: 3%;
+}

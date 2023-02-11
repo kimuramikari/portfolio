@@ -1,0 +1,63 @@
+﻿@charset "UTF-8";
+
+main {
+    width: 100%;
+
+}
+
+main section {
+    margin: 0% 10%;
+}
+
+main section h2 {
+    text-align: center;
+    font-size: 5vw;
+}
+
+main section .image {
+    /* display: flex; */
+    /* justify-content: space-around; */
+    margin-top: 10%;
+}
+
+main section .image .image_div {
+    text-align: center;
+    display: flex;
+}
+
+main section .image .image_div img {
+    margin: 5% 2%;
+}
+
+main section .image div img {
+    width: 40vw;
+    height: 20vw;
+    object-fit: cover;
+    border-radius: 20px;
+    border-right: 5px solid #f97;
+    border-bottom: 5px solid #f97;
+}
+
+
+main section .image div .img3 {
+    height: 40vw;
+}
+
+main section .image div h3 {
+    font-size: 2vw;
+    margin-left: 20px;
+    background-color: yellow;
+
+}
+
+main section .image div h3::before {
+    content: '◇';
+    color: #f97;
+}
+
+main section .image div p,
+main section .image div a {
+    font-size: 2.5vw;
+    margin-top: 1vw;
+    padding-left: 20px;
+}

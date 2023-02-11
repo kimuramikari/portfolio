@@ -1,0 +1,29 @@
+.music{
+    margin: 0% 10%;
+
+}
+.music .h2{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 5%;
+}
+.music .h3{
+    font-size: 1.5rem;
+    margin-top: 10%;
+    border-bottom: 2px dashed #fff
+}
+.music .music_flex{
+    display: flex;
+}
+
+.music .music_flex .music_plugin{
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top:5%;
+}
+.music .music_flex .music_plugin iframe{
+    margin:0 !important;
+    width: 100%;
+    border-radius: 20px;
+}

@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    font-family: serif;
+    font-family: 'Yusei Magic', sans-serif;
+    color: rgb(200, 74, 95);
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.page_header {
+    position: sticky;
+    width: 100%;
+    background-color: rgb(255, 238, 238);
+    padding: 0 2.5vw;
+    top: 0;
+}
+
+.page_header .logo {
+    width: 5vw;
+    margin: 10px;
+}
+
+.page_header .title {
+    font-size: 4.5vw;
+    top: -10px;
+}
+
+.page_header,
+.page_header .nav .main_nav {
+    display: flex;
+}
+
+.page_header {
+    justify-content: space-between;
+}
+
+.page_header .nav .main_nav div {
+    padding: 2vw 2vw 2vw 0vw;
+    font-size: 2vw;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(255, 238, 238);
+}

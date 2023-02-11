@@ -1,0 +1,38 @@
+@media screen and (min-width:760px){
+    .character{
+        margin: 0 10%;
+    }
+    .character .h2,.character .h3,.character .p{
+        text-align: center;
+    }
+    .character .h2{
+        font-size: 1.5rem;
+        margin-top: 5%;
+    }
+    .character .h3{
+        margin-left: 20%;
+        margin-right:20%;
+        font-size: 1.5rem;
+        margin-top: 5%;
+        border-bottom: 2px rgb(117, 195, 255) solid;
+        letter-spacing: 20px;
+    }
+    .character .p{
+        margin:2% 10% 0% 10% ;
+        line-height: 1.5rem;
+        letter-spacing: 10px;
+        font-size: 1.2rem;
+    }
+    .character .character_flex{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10%;
+    }
+    .character .character_flex div a img{
+        width: 200px;
+    }
+    .character .character_flex div a img:hover{
+        border:5px solid #fff;
+        transition: 0.1s;
+    }
+}

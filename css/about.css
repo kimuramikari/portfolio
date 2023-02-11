@@ -1,0 +1,26 @@
+main .about {
+    padding: 0% 10%;
+}
+
+main .about .about_flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+main .about .about_flex .image img {
+    width: 20vw;
+    height: 40vw;
+    object-fit: cover;
+}
+
+main .about .about_flex .image {
+    box-shadow: 2vw 2vw #ffffff;
+}
+
+main .about .about_flex .box {
+    padding-top: 2vw;
+}
+
+main .gktk {
+    padding-bottom: 10vw;
+}

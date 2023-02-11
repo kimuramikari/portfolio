@@ -1,0 +1,171 @@
+.character{
+    margin: 0% 10%;
+}
+.character .h3{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 3%;
+}
+.character .ch_flex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+.character .ch_flex div{
+    margin: 10px;
+}
+.character .ch_flex div a{
+    border: 5px #fff solid;
+    border-radius: 50px;
+    padding: 10px 80px;
+    text-decoration: none;
+}
+
+/* ST☆RISH */
+/* 一十木音也 */
+.character .ch_flex .ch_1 > a:hover{
+    border: 5px red solid;
+    background-color: #fff;
+    transition: 0.5s;
+    color: red;
+
+}
+
+/* 聖川真斗 */
+.character .ch_flex .ch_2 > a:hover{
+    border: 5px blue solid;
+    background-color: #fff;
+    transition: 0.5s;
+    color: blue;
+}
+
+/* 四ノ宮那月 */
+.character .ch_flex .ch_3 > a:hover{
+    border: 5px yellow solid;
+    background-color: #fff;
+    transition: 0.5s;
+    color: darkorange;
+}
+
+/* 一ノ瀬トキヤ */
+.character .ch_flex .ch_4 > a:hover{
+    border: 5px blueviolet solid;
+    background-color: #fff;
+    transition: 0.5s;
+    color: blueviolet;
+}
+
+/* 神宮寺レン */
+.character .ch_flex .ch_5 > a:hover{
+    border: 5px orange solid;
+    background-color: #fff;
+    transition: 0.5s;
+    color: darkorange;
+}
+
+/* 来栖翔 */
+.character .ch_flex .ch_6 > a:hover{
+    border: 5px deeppink solid;
+    background-color: #fff;
+    transition: 0.5s;
+    color: deeppink;
+}
+
+/* 愛島セシル */
+.character .ch_flex .ch_7 > a:hover{
+    border: 5px greenyellow solid;
+    background-color: #fff;
+    transition: 0.5s;
+    color: green;
+}
+
+/* QUARTET★KNIGHT */
+/* 寿嶺二 */
+.character .ch_flex .ch_8 > a:hover{
+    border: 5px limegreen solid;
+    background-color: #fff;
+    transition: 0.5s;
+    color: green;
+}
+
+/* 黒崎蘭丸 */
+.character .ch_flex .ch_9 > a:hover{
+    border: 5px darkred solid;
+    background-color: #fff;
+    transition: 0.5s;
+    color: darkred;
+}
+
+/* 美風藍 */
+.character .ch_flex .ch_10 > a:hover{
+    border: 5px violet solid;
+    background-color: #fff;
+    transition: 0.5s;
+    color: violet;
+}
+
+/* カミュ */
+.character .ch_flex .ch_11 > a:hover{
+    border: 5px lightskyblue solid;
+    background-color: #fff;
+    transition: 0.5s;
+    color: blue;
+}
+
+/* HE★VENS */
+/* 鳳瑛一 */
+.character .ch_flex .ch_12 > a:hover{
+    border: 5px red solid;
+    background-color: #fff;
+    transition: 0.5s;
+    color: red;
+}
+
+/* 皇綺羅 */
+.character .ch_flex .ch_13 > a:hover{
+    border: 5px blue solid;
+    background-color: #fff;
+    transition: 0.5s;
+    color: blue;
+}
+
+/* 帝ナギ */
+.character .ch_flex .ch_14 > a:hover{
+    border: 5px yellow solid;
+    background-color: #fff;
+    transition: 0.5s;
+    color: darkorange;
+}
+
+/* 鳳瑛二 */
+.character .ch_flex .ch_15 > a:hover{
+    border: 5px blueviolet solid;
+    background-color: #fff;
+    transition: 0.5s;
+    color: blueviolet;
+}
+
+/* 桐生院ヴァン */
+.character .ch_flex .ch_16 > a:hover{
+    border: 5px orange solid;
+    background-color: #fff;
+    transition: 0.5s;
+    color: darkorange;
+}
+
+/* 日向大和 */
+.character .ch_flex .ch_17 > a:hover{
+    border: 5px deeppink solid;
+    background-color: #fff;
+    transition: 0.5s;
+    color: deeppink;
+}
+
+/* 天草シオン */
+.character .ch_flex .ch_18 > a:hover{
+    border: 5px greenyellow solid;
+    background-color: #fff;
+    transition: 0.5s;
+    color: green;
+    
+}

@@ -1,0 +1,75 @@
+.event_page{
+  margin: 0 10%;
+}
+.event .h2{
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 5%;
+}
+.event div{
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 1.03rem;
+  margin-top: 3%;
+}
+.event div a{
+  /* border: 1px #fff solid; */
+  background-color: rgba(85, 87, 129, 0.437);
+  text-decoration: none;
+  padding: 1% 10%;
+}
+.event div a:hover{
+  background-color: #fff;
+  color: #000;
+  transition: 0.5s;
+}
+.page_top_btn {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-weight: bold;
+    padding: 0.7em;
+    text-align: center;
+    background: white;
+    color: #000;
+    transition: 0.3s;
+    text-decoration: none;
+    border-radius: 30px;
+    border: #000 1px solid;
+}
+.page_top_btn:hover{
+    background-color: blue;
+    color: white;
+    transition: 0.2s;
+}
+html{
+  scroll-behavior: smooth;
+}
+.title{
+  color: #fff;
+  font-size: 1.5rem;
+  margin-top: 5%;
+  padding-top:10%;
+}
+.set_list .str_flex , .cast .cv_flex{
+  display: flex;
+  letter-spacing: 5px;
+}
+.set_list .str_flex div , .cast .cv_flex .p{
+  padding:0 1.5%;
+}
+.cast,.hall,.set_list{
+  margin-top: 3%;
+}
+.set_list .str_flex {
+  background-color: rgba(85, 87, 129, 0.437);
+  padding:1% 0;
+  line-height: 2rem;
+}
+.hall .p{
+  padding-left: 2%;
+}
+.first .h3,.second .h3,.third .h3,.fourth .h3,.fifth .h3,.sixth .h3,.seventh .h3,#king .h3,#st .h3,#sss .h3{
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}

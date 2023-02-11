@@ -1,0 +1,30 @@
+.menber{
+    margin: 0 10%;
+
+}
+.menber .h2{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 5%;
+}
+.menber .h3{
+    margin-top: 5%;
+    margin-left: 45%;
+    font-size: 3rem;
+    border-bottom: lightcyan 3px solid;
+}
+.menber .flex{
+    display: flex;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.menber .flex .image{
+    margin-right: 10%;
+}
+.menber .flex .image img{
+    width: 450px;
+}
+.menber .flex .naiyou .p{
+    font-size: 1.25rem;
+}

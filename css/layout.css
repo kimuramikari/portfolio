@@ -1,0 +1,207 @@
+/* ハンバーガーメニュー導入 */
+body {
+    margin: 0;
+    font-family: serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.p {
+    color: white;
+    font-size: 2vw;
+}
+
+.h3,
+.h4 {
+    color: white;
+}
+
+.content_body {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.content_body header {
+    width: 100%;
+    min-height: 100vh;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.header_container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.content_body .h1 {
+    max-height: 100vh;
+    font-size: 12vw;
+    text-align: center;
+    font-family: serif;
+    color: white;
+    padding: 16vw 0;
+}
+
+
+.sample_sp_menu {
+    background-color: #8B9E8F;
+    position: fixed;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    text-align: center;
+    transition: .5s;
+    z-index: 998;
+}
+
+.sample_sp_menu.active {
+    top: 0;
+}
+
+.sample_sp_menu ul {
+    padding-inline: 0;
+}
+
+.sample_sp_menu li {
+    list-style: none;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+
+.sample_sp_menu li a {
+    font-size: 2rem;
+    font-family: serif;
+}
+
+.sample_sp_menu li a:hover {
+    color: #4c5a66;
+    transition: 0.2s;
+}
+
+.menu_btn_container {
+    width: 4.5vw;
+    height: 4.5vw;
+    position: fixed;
+    margin-top: 2vw;
+    margin-left: 85vw;
+    /* margin-right: -100%; */
+    cursor: pointer;
+    z-index: 999;
+    text-align: right;
+}
+
+.menu_btn_container img {
+    width: 100%;
+    position: absolute;
+}
+
+.menu_btn_container .menu_close {
+    opacity: 1;
+}
+
+.menu_btn_container .menu_close.active {
+    opacity: 0;
+}
+
+.menu_btn_container .menu_open {
+    opacity: 1;
+
+}
+
+.menu_btn_container .menu_opne.active {
+    opacity: 1;
+}
+
+.background {
+    position: fixed;
+    z-index: -999;
+}
+
+.background img {
+    width: 100vw;
+    height: 120vh;
+    min-height: 100vh;
+    margin-top: -10%;
+    object-fit: cover;
+}
+
+main section {
+    max-width: 100%;
+    background-color: #9e8b8ed9;
+}
+
+main .portfolio .h2,
+main .about .h2 {
+    color: white;
+    font-size: 5vw;
+    text-align: center;
+    padding-top: 10%;
+}
+
+main .portfolio .portfolio_flex .p,
+main .about .portfolio_flex .p {
+    font-size: 2.5vw;
+    padding: 10% 5% 0% 5%;
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+.footer .a {
+    padding-top: 3%;
+    font-size: 3.5vw;
+}
+
+.footer .a a {
+    color: white;
+    background-color: #9e8b8e;
+    border-radius: 50vw;
+    padding: 0 5vw;
+    transition: all .3s ease-out;
+}
+
+.footer .a a:hover {
+    letter-spacing: 1vw;
+}
+
+
+
+.footer .p {
+    margin-top: 5%;
+    padding-bottom: 1%;
+    font-size: 1vw;
+    color: #9e8b8e;
+}
+
+* {
+    min-height: 0vw;
+    /* Safari clamp関数対策 */
+}
+
+
+/* フェードイン処理 */
+.fade_in {
+    transform: translateY(-100px);
+    transition: 1s;
+    opacity: 0;
+}
+
+.fade_in.animation {
+    transform: translateY(0px);
+    opacity: 1;
+}

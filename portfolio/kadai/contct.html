@@ -1,0 +1,64 @@
+﻿<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>お問い合わせページ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/ress.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/contact_style.css">
+</head>
+
+<body>
+    <header class="page_header">
+        <div>
+            <img src="images/logo.png" class="logo" alt="ロゴ"><a href="top.html#" class="title">My Hobby</a>
+        </div>
+        <nav class="nav">
+            <div class="main_nav">
+                <div><a href="news.html">GAME</a></div>
+                <div><a href="shoukai.html">HOBBY</a></div>
+                <div><a href="contct.html">CONTACT</a></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div>
+                <h2>お問い合わせフォーム</h2>
+            </div>
+            <form method="POST" action="#">
+                <div>
+                    <p>
+                        お名前<span>*</span>
+                    </p>
+                    <input type="text" placeholder="田中太郎" required>
+                    <p>お名前(フリガナ)<span>*</span></p>
+                    <input type="text" placeholder="タナカタロウ" required>
+                    <p>貴社名<span>*</span></p>
+                    <input type="text" required>
+                    <p>メールアドレス<span>*</span></p><input type="email" required>
+                    <p>電話番号<span>*</span></p>
+                    <input type="tel" required>
+                    <p>
+                        ご質問内容をご記入ください
+                    </p>
+                    <textarea name="messege" cols="30" row="50"></textarea><br>
+                    <div>
+                        <input type="submit" value="送信内容を確認する" class="sousin">
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>
+            &copy:kimuramikari.2021.
+        </p>
+    </footer>
+</body>
+
+</html>

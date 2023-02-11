@@ -1,0 +1,50 @@
+main .portfolio .portfolio_flex,
+main .about .portfolio_flex {
+    display: flex;
+    margin-top: 8%;
+    margin: 8% 10% 0% 10%;
+}
+
+main .portfolio .portfolio_flex img,
+main .about .portfolio_flex img {
+    width: 40vw;
+    height: 30vw;
+    object-fit: cover;
+    margin-bottom: 5vw;
+}
+
+main .portfolio .portfolio_flex .p .btn,
+main .about .portfolio_flex .p .btn {
+    position: relative;
+    padding: 0.5vw;
+    color: white;
+    background-color: #ffffff29;
+    border: 1px solid #fff;
+    transition: 0.2s ease-in-out;
+
+}
+
+main .portfolio .portfolio_flex .p .btn::before,
+main .about .portfolio_flex .p .btn::before {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #ffffff;
+    content: '';
+    transition: 0.2s ease-in-out;
+
+}
+
+main .portfolio .portfolio_flex .p .btn:hover::before,
+main .about .portfolio_flex .p .btn:hover::before {
+    top: 0px;
+    left: 0px;
+}
+
+main .portfolio .portfolio_flex .p .btn:hover,
+main .about .portfolio_flex .p .btn:hover {
+    background-color: white;
+    color: #69756b;
+}

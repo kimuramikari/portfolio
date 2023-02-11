@@ -1,0 +1,40 @@
+#news{
+    margin:0 10%;
+}
+.h2{
+    margin-top:5%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.h3{
+    text-align: center;
+    margin-top:15%;
+    border-bottom: 1px dashed white;
+    font-size: 1.25rem;
+}
+.news{
+    background-color: rgba(255, 255, 255);
+    margin: 2% 5% 0% 5%;
+    padding:3%;
+    border-radius: 10px;
+}
+.news span{
+    color: deeppink;
+    font-size: 16px;
+}
+.news .span{
+    /* color: blue; */
+    background-color:yellow;
+}
+.news .p{
+    line-height: 2rem;
+    letter-spacing: 5px;
+    color: black;
+}
+.news a{
+    color: red;
+    text-decoration: none;
+}
+.news a:hover{
+    border-bottom: 1px solid red;
+}

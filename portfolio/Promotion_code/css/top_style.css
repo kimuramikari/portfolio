@@ -1,0 +1,412 @@
+@media screen and (min-width:760px) {
+    img {
+        width: 55vw;
+    }
+
+    /* TOPページの画像 */
+    .top_image {
+        position: relative;
+        width: 100%;
+    }
+
+    .top_image .utapri_image {
+        width: 100%;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .top_image .log {
+        position: absolute;
+        right: 12%;
+        bottom: 5vw;
+        width: 30%;
+
+    }
+
+    /* うたの☆プリンスさまっ♪とはの本文 */
+    .gaiyou {
+        margin-top: 10%;
+        width: 100%;
+        padding: 5% 10%;
+        background-color: rgba(85, 87, 129, 0.437);
+    }
+
+    .gaiyou .h2,
+    #gaiyou .gaiyoubun {
+        text-align: center;
+    }
+
+    .gaiyou .h2 {
+        font-size: 1.5rem;
+        background-color: rgba(255, 255, 255, 0.125);
+    }
+
+    .gaiyou .gaiyoubun {
+        margin: 5% 0;
+        font-size: 18px;
+        line-height: 3rem;
+        letter-spacing: 12px;
+    }
+
+    /* イントロダクションの本文 */
+    .intro {
+        width: 100%;
+        padding: 5% 10%;
+
+    }
+
+    .intro .h2,
+    #intro .introbun {
+        text-align: center;
+    }
+
+    .intro .h2 {
+        font-size: 1.5rem;
+        background-color: rgba(255, 255, 255, 0.125);
+
+    }
+
+    .intro .introbun {
+        margin-top: 3%;
+        font-size: 18px;
+        line-height: 3rem;
+        letter-spacing: 12px;
+    }
+
+    /* CHARACTERのレイアウト */
+    .character {
+        padding: 5% 10%;
+        background-color: rgba(85, 87, 129, 0.437);
+    }
+
+    .character .h2 {
+        font-size: 1.5rem;
+        text-align: center;
+        /* margin-top: 10%; */
+        background-color: rgba(255, 255, 255, 0.125);
+
+    }
+
+    .character img {
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-top: 2%;
+        /* border: 1px solid #fff; */
+
+    }
+
+    .character .link {
+        margin-top: 20px;
+        /* margin-right: 10%; */
+        text-align: center
+    }
+
+    .character .link a {
+        text-decoration: none;
+        border: #fff 1px solid;
+        border-radius: 50px;
+        padding: 10px 50px;
+        letter-spacing: 12px;
+    }
+
+    .character .link a:hover {
+        background-color: rgb(255, 255, 255);
+        color: black;
+        transition: 0.5s;
+    }
+
+    /* MUSICのレイアウト */
+    .music {
+        margin-top: 3%;
+        padding: 0.5% 10%;
+    }
+
+    .music .h2 {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 10%;
+        background-color: rgba(255, 255, 255, 0.125);
+
+    }
+
+    .music .cd {
+        margin: 3% 15% 0 15%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .music .cd img {
+        margin-top: 5%;
+        width: 30%;
+    }
+
+    .music .link {
+        margin-top: 8%;
+        text-align: center
+    }
+
+    .music .link a {
+        text-decoration: none;
+        border: #fff 1px solid;
+        border-radius: 50px;
+        padding: 10px 50px;
+        letter-spacing: 12px;
+    }
+
+    .music .link a:hover {
+        background-color: rgb(255, 255, 255);
+        color: black;
+        transition: 0.5s;
+    }
+
+    /* SNSのプラグイン */
+    .sns {
+        padding: 0 10%;
+
+    }
+
+    .sns .h2 {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 10%;
+        background-color: rgba(255, 255, 255, 0.125);
+
+    }
+
+    .sns .sns_flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .twitter_wrap {
+        margin-left: 10%;
+        /* margin-right: auto; */
+        width: 45%;
+        margin-top: 3%;
+        border: 1px solid #fff;
+        border-radius: 20PX;
+        padding: 2%;
+    }
+
+    .twitter_wrap iframe {
+        width: 100% !important;
+    }
+
+    .sns .h3,
+    .sns .p {
+        /* text-align: center; */
+        padding-left: 20%;
+        flex-grow: 1;
+    }
+
+    .sns .h3 {
+        margin-top: 20%;
+    }
+
+    .sns .p a {
+        color: aqua;
+    }
+}
+
+
+
+
+/* タブレット以下のデザイン */
+@media screen and (max-width:760px) {
+    img {
+        width: 500px;
+    }
+
+    /* TOPページの画像 */
+    .top_image {
+        position: relative;
+        width: 100%;
+    }
+
+    .top_image .utapri_image {
+        width: 100%;
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+
+    .top_image .log {
+        position: absolute;
+        right: 12%;
+        bottom: 30px;
+        width: 30%;
+
+    }
+
+    /* うたの☆プリンスさまっ♪とはの本文 */
+    .gaiyou {
+        margin-top: 10%;
+        width: 100%;
+        padding: 5% 10%;
+        background-color: rgba(85, 87, 129, 0.437);
+    }
+
+    #gaiyou .h2,
+    #gaiyou .gaiyoubun {
+        text-align: center;
+    }
+
+    #gaiyou .h2 {
+        /* font-size: 1.5rem; */
+        background-color: rgba(255, 255, 255, 0.125);
+    }
+
+    #gaiyou .gaiyoubun {
+        margin-top: 3%;
+        font-size: 12px;
+        letter-spacing: 14px;
+    }
+
+    /* イントロダクションの本文 */
+    .intro {
+        width: 100%;
+        padding: 5% 10%;
+
+    }
+
+    #intro .h2,
+    #intro .introbun {
+        text-align: center;
+    }
+
+    #intro .h2 {
+        /* font-size: 1.5rem; */
+        background-color: rgba(255, 255, 255, 0.125);
+
+    }
+
+    #intro .introbun {
+        margin-top: 3%;
+        font-size: 12px;
+        /* line-height: rem; */
+        letter-spacing: 14px;
+    }
+
+    /* CHARACTERのレイアウト */
+    .character {
+        padding: 5% 10%;
+        background-color: rgba(85, 87, 129, 0.437);
+    }
+
+    .character .h2 {
+        /* font-size: 1.5rem; */
+        text-align: center;
+        /* margin-top: 10%; */
+        background-color: rgba(255, 255, 255, 0.125);
+
+    }
+
+    .character img {
+        width: 100%;
+        padding-left: 15%;
+        padding-right: 15%;
+        margin-top: 2%;
+        /* border: 1px solid #fff; */
+
+    }
+
+    .character .link {
+        margin-top: 20px;
+        /* margin-right: 10%; */
+        text-align: center
+    }
+
+    .character .link a {
+        text-decoration: none;
+        border: #fff 1px solid;
+        border-radius: 50px;
+        padding: 10px 50px;
+        /* letter-spacing: 12px; */
+        font-size: 12px;
+    }
+
+    .character .link a:hover {
+        background-color: rgb(255, 255, 255);
+        color: black;
+        transition: 0.5s;
+    }
+
+    /* MUSICのレイアウト */
+    .music {
+        padding: 0 10%;
+    }
+
+    .music .h2 {
+        /* font-size: 1.5rem/; */
+        text-align: center;
+        margin-top: 10%;
+        background-color: rgba(255, 255, 255, 0.125);
+
+    }
+
+    .music .cd {
+        margin: 3% 15% 0 15%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .music .cd img {
+        width: 30%;
+    }
+
+    .music .link {
+        margin-top: 50px;
+        text-align: center
+    }
+
+    .music .link a {
+        text-decoration: none;
+        border: #fff 1px solid;
+        border-radius: 50px;
+        padding: 10px 50px;
+        /* letter-spacing: 12px; */
+        font-size: 12px;
+
+    }
+
+    .music .link a:hover {
+        background-color: rgb(255, 255, 255);
+        color: black;
+        transition: 0.5s;
+    }
+
+    /* SNSのプラグイン */
+    .sns {
+        padding: 0 10%;
+
+    }
+
+    .sns .h2 {
+        /* font-size: 1.5rem; */
+        text-align: center;
+        margin-top: 10%;
+        background-color: rgba(255, 255, 255, 0.125);
+
+    }
+
+    .twitter_wrap {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        /* max-width: 500px; */
+        margin-top: 3%;
+    }
+
+    .twitter_wrap iframe {
+        width: 100% !important;
+    }
+
+    .sns .h3,
+    .sns .p {
+        text-align: center;
+    }
+
+    .sns .p a {
+        color: aqua;
+    }
+}
